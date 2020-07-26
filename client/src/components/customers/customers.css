@@ -1,0 +1,15 @@
+h2, ul {
+    padding: 10px 0px;
+    width: 30%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    border-bottom: 1px dotted #777;
+}
