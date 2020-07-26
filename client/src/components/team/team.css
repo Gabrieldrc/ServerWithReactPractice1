@@ -1,0 +1,18 @@
+#team {
+    height: 100%;
+    background-color: rgb(rgb(35, 146, 219), green, blue);
+}
+
+
+#team h2 {
+    color: rgb(221, 221, 221);
+}
+
+#team .all {
+    width: auto;
+    margin: auto;
+}
+
+.each {
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+#home {
+    height: 100%;
+    background-color: rgb(rgb(122, 27, 211), green, blue);
+}
+
+#home h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#home .presentation {
+    margin: 10px auto;
+}
+
+.quote, .attributed  {
+    margin: 5px auto;
+}
+
+.quote p {
+    color: rgb(25, 162, 226);
+    font-weight: bold;
+}
+
+.attributed p {
+    color: rgb(198, 233, 250);
+    font-weight: bold;
+}
