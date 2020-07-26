@@ -22,8 +22,7 @@
 }
 
 .nav #iconBar{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 2rem;
     height: 50px;
     color: whitesmoke;
     background-color: rgba(19, 131, 223, 0);
@@ -31,5 +30,8 @@
 
 .nav li a {
     color: seashell;
-    margin: 0px 10px;
+    margin: auto 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
 }

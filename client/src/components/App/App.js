@@ -8,22 +8,49 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      user:'',
-      team: []
+      user:'Invitado',
+      team: [
+        {id:1, firstName:'Nobody', lastName:'Here', position:'yet'},
+        {id:1, firstName:'Nobody', lastName:'Here', position:'yet'},
+        {id:1, firstName:'Nobody', lastName:'Here', position:'yet'}
+      ]
     };
   }
   
-  user() {
-    fetch('/')
-        .then(res => res.json())
-        .then(user => this.setState({user: user}, () => console.log('User conected..',user)));
-  }
+  // componentDidMount() {
+  //   this.getUser();
+  //   this.getTeam();
+  // }
 
-  team() {
-    fetch('/team')
-        .then(res => res.json())
-        .then(team => this.setState({team}, () => console.log('We are..',team)));
-  }
+  // async getUser() {
+  //   try{
+  //     const response = await fetch('/');
+  //     if (response.ok) {
+  //       const user = await response.json();
+  //       this.setState({user: user}, () => console.log('User conected..',user));
+  //     } else {
+  //       this.setState({user: 'Invitado'}, () => console.log('Invitado'));
+  //       throw new Error('Request failed!');
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }
+
+  // async getTeam() {
+  //   try{
+  //     const response = await fetch('/team');
+  //     if (response.ok) {
+  //       const team = await response.json();
+  //       this.setState({team}, () => console.log('We are..',team));
+  //     } else {
+  //       this.setState({team: [{id:1, fisrtName:'Nobody', lastName:'Here', position:'yet'}]}, () => console.log('Nobody here yet'));
+  //       throw new Error('Request failed!');
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }
 
   render() {
     return (

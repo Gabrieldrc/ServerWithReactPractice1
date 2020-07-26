@@ -4,8 +4,8 @@ import Each from '../each/each';
 
 function Team(props) {
     return (
-        <div id="team">
-            <h2>This is us:</h2>
+        <div id="team" className="team">
+            <h2 className="title">This is us:</h2>
             <div className="all">
                 {props.team.map(each => {
                     return <Each 

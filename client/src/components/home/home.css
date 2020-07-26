@@ -1,28 +1,37 @@
-#home {
-    height: 100%;
-    background-color: rgb(rgb(122, 27, 211), green, blue);
+.home {
+    background-color: blueviolet;
+    padding: 2rem 10rem;
+    height: auto;
+    margin: 0rem;
+    width: auto;
 }
 
-#home h2{
+.home h2{
     color: whitesmoke;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 
-#home .presentation {
-    margin: 10px auto;
+.home .presentation {
+    margin: 0% 10%;
+    color:white;
+    background-color: blue;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
 }
 
-.quote, .attributed  {
-    margin: 5px auto;
+.quote {
+    margin: 0% 10%;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
 }
 
-.quote p {
-    color: rgb(25, 162, 226);
-    font-weight: bold;
-}
-
-.attributed p {
-    color: rgb(198, 233, 250);
-    font-weight: bold;
+.attributed {
+    margin: 0% 10%;
+    text-align: end;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }

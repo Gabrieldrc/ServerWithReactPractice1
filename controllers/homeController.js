@@ -2,7 +2,8 @@ const express = require('express');
 const homeController = express.Router();
 
 homeController.get('/', (req, res, next) => {
-    res.json({user: 'invited'});
+    user = 'Nombre'
+    res.json(user);
 });
 
 module.exports = homeController;

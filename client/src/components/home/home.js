@@ -3,7 +3,7 @@ import './home.css';
 
 function Home(props) {
     return (
-        <div id="home">
+        <div id="home" className="home">
             <h2>Hey {props.user},</h2>
             <p className="presentation">This is a test of presentation. If you like it, just clone this 
                 repository and personalize whatever you want. If you have suggestions,
