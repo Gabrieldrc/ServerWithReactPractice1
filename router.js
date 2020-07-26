@@ -1,10 +1,10 @@
  
 const express = require('express');
 const router = express.Router();
-const homeController = require('./controllers/homeController');
+const userController = require('./controllers/userController');
 const teamController = require('./controllers/teamController');
 
-router.use('/', homeController);
+router.use('/user', userController);
 router.use('/team', teamController);
 
 module.exports = router;
