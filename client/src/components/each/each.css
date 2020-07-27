@@ -1,0 +1,22 @@
+.each {
+    border: 0.1rem solid black;
+    padding: 25px;
+    background: rgb(45, 81, 240);
+    background-clip: padding-box;
+    width: fit-content;
+    align-content: end;
+    height: 15rem;
+    
+}
+
+.each h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 0.2rem 0.4rem;
+}
+
+.each p {
+    color: rgb(0, 255, 115);
+    font-size: 1.7rem;
+    margin: 0.2rem 0.4rem;
+}

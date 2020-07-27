@@ -1,0 +1,22 @@
+.team {
+    background-color: rgb(41, 231, 120);
+    margin: auto;
+    padding: 4rem;
+}
+
+.team .title {
+    color: rgb(54, 47, 47);
+    padding-left: 10rem;
+    font-size: 1.5rem;
+}
+
+.all {
+    border: 0.1rem solid black;
+    background-color: rgb(14, 9, 9);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.each {
+    display: inline-table;
+}

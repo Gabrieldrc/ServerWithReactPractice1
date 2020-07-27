@@ -1,5 +1,4 @@
-.App h1 {
-    padding: 20px 0px;
-    width: 30%;
-    margin: auto;
+.App {
+    margin-top: 70px;
+    background-color: rgb(29, 27, 27);
 }

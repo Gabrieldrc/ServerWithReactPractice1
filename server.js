@@ -1,20 +1,26 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const errorhandler = require('errorhandler');
 
+//Creation of the app and Port
 const app = express();
-
 const PORT = process.env.PORT || 4000;
 
-app.get('/api/customers', (req, res, next) => {
-    const customers = [
-        {id: 1, firstName: 'Pepe', lastName: 'Perez'},
-        {id: 2, firstName: 'Riky', lastName: 'Ricón'},
-        {id: 3, firstName: 'Tina', lastName: 'Truman'}
-    ];
+//Api router require
+const router = require('./router.js');
 
-    res.json(customers);
-});
+// Middlewares
+app.use(cors());
+app.use(errorhandler());
+app.use(bodyParser.json());
+
+//Api router
+app.use('/', router);
 
 
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
-})
+});
+
+module.exports = app;
