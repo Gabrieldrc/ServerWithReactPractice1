@@ -11,12 +11,12 @@
 }
 
 .all {
-    
-    margin: auto;
-    background-color: aliceblue;
-    width: fit-content;
+    border: 0.1rem solid black;
+    background-color: rgb(14, 9, 9);
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .each {
-    display: inline-block;
+    display: inline-table;
 }
